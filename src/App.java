@@ -27,7 +27,7 @@ class App {
 
   // Funções (procedimentos)
   public static void processo(Integer ano) {
-    // operador logico e relacional
+    // operador logico e relacional; estruturas condicionais
     if (ano >= 1945 && ano < 1960) {
       System.out.println("Você é da geração Baby Boomer");
     }
