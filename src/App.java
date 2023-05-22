@@ -27,9 +27,11 @@ class App {
       // comando de saída
       System.out.println("O seu ano de nascimento é: " + Integer.toString(ano));
 
+      // chamada pra função
       gen = processo(ano);
       System.out.println();
 
+      // matriz
       mat[cont][0] = Integer.toString(n);
       mat[cont][1] = Integer.toString(ano);
       mat[cont][2] = gen;
@@ -39,6 +41,7 @@ class App {
 
     System.out.println("[IDADE]" + "    [ANO]  " + "   [GERAÇÃO]");
 
+    // exibição da matriz
     for (i = 0; i < 3; i++) {
       for (j = 0; j < 3; j++) {
         System.out.print("  [" + mat[i][j] + "]  ");
